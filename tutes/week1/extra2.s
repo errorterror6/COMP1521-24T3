@@ -35,10 +35,12 @@ main:
 
 
 	li	$v0, 0
-	jr	$ra		#return
+	jr	$ra		#return 0
 
 
 
 	.data
 str:
 	.asciiz "Enter a number: "
+
+
