@@ -29,6 +29,7 @@ main__if:
 main__else:
 	#  y = x * x;
 	mul	$t1, $t0, $t0
+	
 
 	# printf("%d\n", y);
 	li	$v0, 1
@@ -49,3 +50,6 @@ str1:
 	.asciiz "Enter a number: "
 str2:
 	.asciiz "square too big for 32 bits\n"
+
+data:
+	.word 4
