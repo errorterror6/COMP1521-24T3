@@ -3,6 +3,7 @@ SQUARE_MAX = 46340
 
 
 main:
+	#int x;
 	#$t0 = x
 	#$t1 = y
 
@@ -42,10 +43,12 @@ main__else:
 
 
 main__end:
+#reutrn 0
 	li	$v0, 0
 	jr	$ra
 
 	.data
+	#global variables, string literals, arrays
 str1:
 	.asciiz "Enter a number: "
 str2:
@@ -53,3 +56,6 @@ str2:
 
 data:
 	.word 4
+u:
+	.word 4
+

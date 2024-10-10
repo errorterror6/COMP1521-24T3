@@ -22,5 +22,13 @@ c:  .asciiz "abcde"     0x1001028
     space
     space
 d:  .byte   1, 2, 3, 4    0x1001030
-e:  .word   1, 2, 3, 4
-f:  .space  1
+	.byte 1
+	.byte 2
+	.byte 3
+	.byte 4
+e:  .word   1, 2, 3, 4    0x1001034
+	.word 1
+	.word 2
+	.word 3
+	.word 4
+f:  .space  1             0x1001044
