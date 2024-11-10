@@ -1,0 +1,4 @@
+we have a file that is 962 bytes long
+file system allocates memory in blocks -> 512B
+to store our file we need 2 blocks
+and so in total the allocated memory is 1024B, not 962.

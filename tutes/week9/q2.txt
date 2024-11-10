@@ -1,0 +1,5 @@
+we have a file that is 989 bytes long
+machines allocate memory in blocks
+typically a block is 512B
+we would need 2 blocks for this file
+so therefore, 1024B is allocated
